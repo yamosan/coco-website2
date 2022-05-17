@@ -116,7 +116,28 @@ body {
 }
 
 .section.install {
-  scroll-margin-top: var(--header-height);
-  height: 100vh;
   background: var(--color-white);
+  padding: 90px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.install__title {
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.install__stores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.install_stores > img {
+  width: 180px;
 }
