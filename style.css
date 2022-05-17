@@ -1,5 +1,13 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
 }
 
 .header {
@@ -27,4 +35,17 @@ body {
 
 .menu__list {
   font-weight: 700;
+}
+
+.footer {
+  height: 168px;
+  background-color: #333333;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
