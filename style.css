@@ -64,9 +64,65 @@ body {
 }
 
 .section.top {
-  scroll-margin-top: var(--header-height);
+  padding-top: var(--header-height);
   height: 100vh;
   background: var(--color-main);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top__container {
+  width: 100%;
+  max-width: 1140px;
+  border: 3px solid var(--color-white);
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-bottom: 85px;
+  border-radius: 61px;
+  position: relative;
+}
+
+.top__left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.top__minilogo {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.top__mock {
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+  width: 440px;
+}
+
+.top__heading {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.66;
+  letter-spacing: 8%;
+}
+
+.top__sub-heading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.86;
+  letter-spacing: 10%;
+}
+
+.top__stores {
+  display: flex;
+  gap: 22px;
+}
+
+.top__stores > img {
+  width: 168px;
 }
 
 .section.about {
