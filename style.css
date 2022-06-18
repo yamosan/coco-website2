@@ -167,8 +167,90 @@ body {
 
 .section.feature {
   scroll-margin-top: var(--header-height);
-  height: 100vh;
   background: var(--color-main);
+  padding: 68px 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.feature__title {
+  width: max-content;
+  margin: 0 auto;
+  padding: 0 8px;
+
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.feature__title::after {
+  content: "";
+  display: block;
+  height: 6px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95px;
+
+  border-radius: 6px;
+  background-color: var(--color-black);
+}
+
+.feature__points {
+  margin-top: 58px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.point1 {
+  width: 960px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 54px;
+  justify-content: space-between;
+}
+
+.point1__img {
+  width: 515px;
+}
+
+.point1__left {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.point1__heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.86;
+  letter-spacing: 0.05em;
+  width: max-content;
+
+  border-bottom: 2px solid var(--color-black);
+}
+.point1__summary {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.86;
+  letter-spacing: 0.05em;
+}
+.point1__description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.86;
+  /* or 30px */
+}
+
+.point2 {
+}
+.point3 {
 }
 
 .section.install {
