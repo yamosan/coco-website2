@@ -168,7 +168,8 @@ body {
 .section.feature {
   scroll-margin-top: var(--header-height);
   background: var(--color-main);
-  padding: 68px 0;
+  padding-top: 68px;
+  padding-bottom: 120px;
 
   display: flex;
   flex-direction: column;
@@ -206,7 +207,8 @@ body {
 }
 
 .point1 {
-  width: 960px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
 
   display: flex;
@@ -245,12 +247,91 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.86;
-  /* or 30px */
 }
 
 .point2 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 54px;
+  justify-content: space-between;
 }
+.point2__img {
+  width: 515px;
+}
+
+.point2__right {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.point2__heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.86;
+  letter-spacing: 0.05em;
+  width: max-content;
+
+  border-bottom: 2px solid var(--color-black);
+}
+.point2__summary {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.86;
+  letter-spacing: 0.05em;
+}
+.point2__description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.86;
+}
+
 .point3 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 54px;
+  justify-content: space-between;
+}
+
+.point3__img {
+  width: 515px;
+}
+
+.point3__left {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.point3__heading {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.86;
+  letter-spacing: 0.05em;
+  width: max-content;
+
+  border-bottom: 2px solid var(--color-black);
+}
+.point3__summary {
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.86;
+  letter-spacing: 0.05em;
+}
+.point3__description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.86;
 }
 
 .section.install {
